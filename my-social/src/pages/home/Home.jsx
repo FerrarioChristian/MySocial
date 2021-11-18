@@ -1,5 +1,5 @@
 import Feed from "components/feed/Feed";
-import Topbar from "components/navbar/Topbar";
+import Topbar from "components/topbar/Topbar";
 import Rightbar from "components/rightbar/Rightbar";
 import Sidebar from "components/sidebar/Sidebar";
 import React from "react";
@@ -12,7 +12,7 @@ export default function Home() {
       <div className="homeContainer">
         <Sidebar />
         <Feed />
-        <Rightbar />
+        <Rightbar profile={false} />
       </div>
     </>
   );
